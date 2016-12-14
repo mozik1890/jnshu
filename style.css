@@ -1,15 +1,18 @@
 .container{
-  width: 400px;
-  height: 400px;
-  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 .blank{
-  width: 100px;
-  height: 100px;
+  width: 30%;
+  height: 30%;
   float: left;
   display: block;
-  background: red;
-  margin: 3px;
-  border:2px solid;
-  border-radius:10px;
+  background: rgb(231,131,38);
+  margin: 1%;
+  border:1% solid;
+  border-radius:20%;
+  position: relative;
 }
